@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Project 3</a>
+              <a class="navbar-brand" href="/">Project 3</a>
             </div>
           </div>
         </nav>
