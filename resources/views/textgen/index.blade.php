@@ -21,7 +21,7 @@ Project 3 - Text Generator
                 <input type="text" class="form-control" id="paragraph" name="paragraph" value="{{ old('paragraph') }}">
             </div>
             <div class="checkbox">
-                <label><input name="startwith" type="checkbox" /> Start with 'Lorem ipsum dolor sit amet...</label>
+                <label><input name="startwith" type="checkbox" /> Start with Lorem ipsum dolor sit amet...</label>
             </div>
             <button type="submit" class="btn btn-default">Generate Text</button>
             <br />
