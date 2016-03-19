@@ -16,7 +16,7 @@ Project 3 - Text Generator
         <form role="form" method="post" action="/textgen">
             {{ csrf_field() }}
             <div class="form-group">
-                <label for="paragraph">Paragraph: (Max 99)</label>
+                <label for="paragraph">Paragraph: (Max 10)</label>
                 <div class="error">{{ $errors->first('paragraph') }}</div>
                 <input type="text" class="form-control" id="paragraph" name="paragraph" value="{{ old('paragraph') }}">
             </div>
@@ -33,7 +33,7 @@ Project 3 - Text Generator
     </div>
     <div class="col-md-8">
         @if($loremcontent)
-            {{ $loremcontent }}
+            {!! $loremcontent !!}
         @endif
     </div>
 </div>
