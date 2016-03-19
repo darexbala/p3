@@ -10,6 +10,10 @@ class TextGenController extends Controller {
     * Responds to requests to GET /textgen
     */
     public function getIndex() {
-        return 'Show a list of books';
+        return view('textgen.index');
+    }
+
+    public function postIndex() {
+        return 'Add the book: '.$_POST['title'];
     }
 }
