@@ -1,0 +1,17 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+footer, .footerhr {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+.error
+{
+ color: red;
+}

@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" type='text/css' rel='stylesheet'>
-
+    <link href="{{ asset('/css/styles.css') }}" type='text/css' rel='stylesheet'>
     {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}
     @yield('head')
 
@@ -41,7 +41,7 @@
             {{-- Main page content will be yielded here --}}
             @yield('content')
         </section>
-      <hr>
+      <hr class="footerhr">
 
       <footer>
         <p>&copy; {{ date('Y') }} Project 3.</p>
