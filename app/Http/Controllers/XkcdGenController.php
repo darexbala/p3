@@ -14,10 +14,6 @@ class XkcdGenController extends Controller {
     * Responds to requests to GET /textgen
     */
     public function getIndex() {
-        if(empty($_SESSION['words']))
-        {
-            XkcdGenController::loadWordsIntoSession();
-        }
         return view('xkcdgen.index', ['password' => '']);
     }
 
@@ -31,7 +27,6 @@ class XkcdGenController extends Controller {
 
         if(empty($_SESSION['words']))
         {
-            dd($_SESSION['words']);
             XkcdGenController::loadWordsIntoSession();
         }
 
