@@ -10,7 +10,7 @@ Project 3 - xkcd Password Generator
 @stop
 
 @section('content')
-
+<a href="/"><span class="glyphicon glyphicon-home"></span> Home page</a>
 <div class="row">
     <div class="col-md-6">
         <h2>xkcd Password Generator</h2>

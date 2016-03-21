@@ -10,7 +10,7 @@ Project 3 - User Generator
 @stop
 
 @section('content')
-
+<a href="/"><span class="glyphicon glyphicon-home"></span> Home page</a>
 <div class="row">
     <div class="col-md-4">
         <h2>User Profile Generator</h2>

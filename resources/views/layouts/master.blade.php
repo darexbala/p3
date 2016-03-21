@@ -36,8 +36,6 @@
 
     <div class="container">
         <section>
-            <a href="/"><span class="glyphicon glyphicon-home"></span> Home page</a>
-
             @yield('content')
         </section>
         <br/>
