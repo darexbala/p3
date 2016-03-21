@@ -7,14 +7,17 @@ use Illuminate\Http\Request;
 use Faker;
 
 class UserGenController extends Controller {
-    
+
     /**
-    * Responds to requests to GET /textgen
+    * Responds to requests to GET /usergen
     */
     public function getIndex() {
         return view('usergen.index', ['users' => '']);
     }
 
+    /**
+    * Responds to requests to POST /usergen
+    */
     public function postIndex(Request $request) {
 
         $this->validate($request, [

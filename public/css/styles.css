@@ -11,7 +11,9 @@ footer {
     height: 100px;
     width: 100%;
 }
-.error
-{
+.error{
  color: red;
+}
+.number-text{
+    width: 50px;
 }

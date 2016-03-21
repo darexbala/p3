@@ -9,4 +9,6 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/usergen', 'UserGenController@getIndex');
     Route::post('/textgen', 'TextGenController@postIndex');
     Route::post('/usergen', 'UserGenController@postIndex');
+    Route::get('/xkcdgen', 'XkcdGenController@getIndex');
+    Route::post('/xkcdgen', 'XkcdGenController@postIndex');
 });

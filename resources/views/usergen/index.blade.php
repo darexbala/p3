@@ -2,7 +2,7 @@
 
 
 @section('title')
-Project 3 - Text Generator
+Project 3 - User Generator
 @stop
 
 @section('head')
@@ -19,7 +19,7 @@ Project 3 - Text Generator
             <div class="form-group">
                 <label for="usercount">Number of Users: (Max 10)</label>
                 <div class="error">{{ $errors->first('usercount') }}</div>
-                <input type="text" class="form-control" id="usercount" name="usercount" value="{{ old('usercount') }}">
+                <input type="text" class="form-control number-text" id="usercount" name="usercount" value="{{ old('usercount') }}">
             </div>
             <div class="checkbox">
                 <label><input name="phone" type="checkbox" /> Phone Number</label>
@@ -40,13 +40,13 @@ Project 3 - Text Generator
             <br />
             <br />
             @if(count($errors) > 0)
-            <div class="error">Please correct the errors above and try again please!</div>
+                <div class="error">Please correct the errors above and try again please!</div>
             @endif
         </form>
     </div>
     <div class="col-md-8">
         @if(count($users) > 0)
-        <?php echo $users ?>
+            {!! $users !!}
         @endif
     </div>
 </div>

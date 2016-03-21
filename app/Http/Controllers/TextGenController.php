@@ -15,6 +15,9 @@ class TextGenController extends Controller {
         return view('textgen.index', ['loremcontent' => '']);
     }
 
+    /**
+    * Responds to requests to POST /textgen
+    */
     public function postIndex(Request $request) {
 
         $this->validate($request, [
