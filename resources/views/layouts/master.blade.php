@@ -30,7 +30,7 @@
     <div class="jumbotron">
         <div class="container">
             <h1>Developer's Best Friend</h1>
-            <p>Collection of tools to make development easier and faster.</p>
+            <p>Collection of tools to make development easier and faster. List of tools include Lorem Ipsum text generator, User Profile generator and xkcd Password generator.</p>
         </div>
     </div>
 
