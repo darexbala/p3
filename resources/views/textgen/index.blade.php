@@ -14,7 +14,7 @@ Project 3 - Text Generator
 <div class="row">
     <div class="col-md-4">
         <h2>Lorem Ipsum Generator</h2>
-        <form role="form" method="post" action="/textgen">
+        <form method="post" action="/textgen">
             {{ csrf_field() }}
             <div class="form-group">
                 <label for="paragraph">Paragraph: (Max 10)</label>

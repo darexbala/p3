@@ -14,7 +14,7 @@ Project 3 - User Generator
 <div class="row">
     <div class="col-md-4">
         <h2>User Profile Generator</h2>
-        <form role="form" method="post" action="/usergen">
+        <form method="post" action="/usergen">
             {{ csrf_field() }}
             <div class="form-group">
                 <label for="usercount">Number of Users: (Max 10)</label>

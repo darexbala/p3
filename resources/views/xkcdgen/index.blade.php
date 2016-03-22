@@ -14,9 +14,9 @@ Project 3 - xkcd Password Generator
 <div class="row">
     <div class="col-md-6">
         <h2>xkcd Password Generator</h2>
-        <form role="form" method="post" action="/xkcdgen">
+        <form method="post" action="/xkcdgen">
             {{ csrf_field() }}
-            <div class="well offset2"><h3> {{ $password }} </h3></div>
+            <div class="well offset2">{{ $password }}</div>
             <div class="form-group">
                 <label for="size"># of words: (Max 10)</label>
                 <div class="error">{{ $errors->first('size') }}</div>
@@ -28,7 +28,7 @@ Project 3 - xkcd Password Generator
             </div>
             <div class="form-group">
                 <label for="maxlength">Max length</label>
-                <select class="form-control number-text" name="maxlength">
+                <select class="form-control number-text" id="maxlength" name="maxlength">
                     <option value="30">30</option>
                     <option value="40">40</option>
                     <option value="50">50</option>
