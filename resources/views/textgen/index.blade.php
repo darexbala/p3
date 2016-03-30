@@ -2,7 +2,7 @@
 
 
 @section('title')
-Project 3 - Text Generator
+DO Project 3 - Text Generator
 @stop
 
 @section('head')

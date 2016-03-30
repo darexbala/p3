@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        @yield('title','Project 3')
+        @yield('title','DO Project 3')
     </title>
 
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Project 3</a>
+                <a class="navbar-brand" href="/">DO Project 3</a>
             </div>
         </div>
     </nav>
@@ -45,8 +45,6 @@
             <p>&copy; {{ date('Y') }} Project 3.</p>
         </footer>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
     @yield('body')
 

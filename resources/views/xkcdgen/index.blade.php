@@ -2,7 +2,7 @@
 
 
 @section('title')
-Project 3 - xkcd Password Generator
+DO Project 3 - xkcd Password Generator
 @stop
 
 @section('head')

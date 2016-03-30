@@ -2,7 +2,7 @@
 
 
 @section('title')
-Project 3 - User Generator
+DO Project 3 - User Generator
 @stop
 
 @section('head')

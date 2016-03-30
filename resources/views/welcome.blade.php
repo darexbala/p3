@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-Project 3
+DO Project 3 - Home page
 @stop
 
 @section('head')
