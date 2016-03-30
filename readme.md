@@ -7,8 +7,8 @@
 Dynamic Web Applications - Project 3.
 
 ## Demo
-<https://youtu.be/kQFeBPTJpWY>
-scra
+<https://youtu.be/lTqyFzrJ4Gw>
+
 ## Details for teaching team
 * Used bower to pull down Bootstrap dependency.
 
